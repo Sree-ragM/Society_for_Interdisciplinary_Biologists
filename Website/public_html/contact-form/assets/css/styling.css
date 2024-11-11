@@ -1,6 +1,6 @@
 /* Navbar container styling */
 .navbar-custom {
-    background-color: #5a4fcf; /* Soft purple theme color */
+    background-color: linear-gradient(45deg, #614385 , #516395); /* Soft purple theme color */
 }
 
 /* Styling for navbar links */
@@ -69,4 +69,3 @@
 
 
 
-    

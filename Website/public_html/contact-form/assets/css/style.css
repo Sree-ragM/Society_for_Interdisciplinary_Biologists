@@ -1,6 +1,6 @@
         /* Navbar container styling */
         .navbar-custom {
-            background-color: #5a4fcf; /* Soft purple theme color */
+            background-color: linear-gradient(45deg, #614385 , #516395); /* Soft purple theme color */
         }
 
         /* Styling for navbar links */
@@ -17,7 +17,7 @@
         /* Hover and active state for links */
         .navbar-custom .navbar-nav .nav-item .nav-link:hover,
         .navbar-custom .navbar-nav .nav-item .nav-link:focus {
-            background-color: #4834d4; /* Darker shade of purple */
+            background-color: linear-gradient(45deg, #614385 , #516395); /* Darker shade of purple */
             color: #ffffff;
         }
 
@@ -41,7 +41,7 @@
             width: 100px;
             height: auto;
         }body{
-        background-image: linear-gradient(45deg, #864ef2, #6755F4);
+        background-image: linear-gradient(45deg, #614385 , #516395);
 }
 .uf-contact-form-01 {
     max-width: 900px;
