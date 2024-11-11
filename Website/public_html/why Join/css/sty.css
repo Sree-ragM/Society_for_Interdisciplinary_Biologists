@@ -1,0 +1,47 @@
+.hero-header {
+    background: linear-gradient(to right, #0f172b, #001f3f); /* Adjust colors as needed */
+    color: #0f172b;
+}
+.hero-header {
+    background: linear-gradient(to right, #0f172b, #001f3f); /* Customize gradient colors */
+    color: white;
+    padding: 5rem 0; /* Add padding to give space inside the hero section */
+    width: 100vw; /* Ensure full viewport width */
+    margin-left: calc(50% - 50vw); /* Center the gradient by offsetting */
+}
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(to right, #1e90ff, #001f3f); /* Match hero section gradient */
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(50% - 50vw); /* Center the navbar */
+    padding: 1rem 0;
+    font-family: Arial, sans-serif; /* Optional: use a clean, modern font */
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.navbar a {
+    color: #f0e68c; /* Link color */
+    text-decoration: none;
+    margin: 0 15px; /* Space between links */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Hover color */
+    transform: scale(1.1); /* Slight scaling on hover */
+}
+
+/* Active link styling (e.g., for "Home") */
+.navbar a.active {
+    color: #ffffff; /* Highlight the active link */
+    border-bottom: 2px solid #ffd700; /* Optional underline effect */
+}
+
+/* Adjust container if necessary */
+.navbar .container {
+    display: flex;
+    justify-content: flex-end; /* Right-align links */
+    max-width: 1200px; /* Optional: max width */
+    margin: 0 auto;
+}
