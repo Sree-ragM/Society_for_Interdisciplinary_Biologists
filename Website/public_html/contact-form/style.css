@@ -1,4 +1,46 @@
-body{
+        /* Navbar container styling */
+        .navbar-custom {
+            background-color: #5a4fcf; /* Soft purple theme color */
+        }
+
+        /* Styling for navbar links */
+        .navbar-custom .navbar-nav .nav-item .nav-link {
+            color: white;
+            background-color: transparent;
+            padding: 8px 15px;
+            margin: 0 5px;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* Hover and active state for links */
+        .navbar-custom .navbar-nav .nav-item .nav-link:hover,
+        .navbar-custom .navbar-nav .nav-item .nav-link:focus {
+            background-color: #4834d4; /* Darker shade of purple */
+            color: #ffffff;
+        }
+
+        /* Styling for the Join Us/Login button */
+        .navbar-custom .btn-primary {
+            background-color: #ff9f43; /* Bright orange accent color */
+            border-color: #ff9f43;
+            color: white;
+            font-weight: bold;
+            transition: background 0.3s, border-color 0.3s;
+        }
+
+        .navbar-custom .btn-primary:hover {
+            background-color: #e58e26; /* Darker shade for hover */
+            border-color: #e58e26;
+            color: #ffffff;
+        }
+
+        /* Logo image size */
+        .navbar-custom .navbar-brand img {
+            width: 100px;
+            height: auto;
+        }body{
         background-image: linear-gradient(45deg, #864ef2, #6755F4);
 }
 .uf-contact-form-01 {
