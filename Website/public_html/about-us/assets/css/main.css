@@ -155,7 +155,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 150px;
+  max-height: 10px;
   margin-right: auto;
 }
 
@@ -1946,4 +1946,43 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+
+/* Dark Background for Footer */
+.footer1 {
+  background-color: #1a1a1a; /* Dark color */
+  color: #f0f0f0; /* Light text color */
+}
+
+/* Footer Links and Text */
+.footer1 a {
+  color: #f0f0f0; /* Light link color */
+}
+
+.footer1 a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+
+.footer1 .footer-links ul li a {
+  color: #f0f0f0;
+}
+
+.footer1 .footer-links ul li a:hover {
+  color: #ffd700;
+}
+
+/* Footer Social Links */
+.footer1 .social-links a {
+  color: #f0f0f0;
+  margin-right: 15px;
+}
+
+.footer1 .social-links a:hover {
+  color: #ffd700;
+}
+
+/* Footer Copyright */
+.footer1 .credits a {
+  color: #ffd700;
 }
